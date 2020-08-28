@@ -43,4 +43,6 @@ To acquire new clients, Billy wants to have a coupon system in place as well.
 
 1. What other features would you like to add? - logging, Swagger, Payment gateway, Booking reminder, Review/Rating, Feedback
 2. How would you handle user authentication? Passport JWT strategy used in code
-3. How would you deploy the solution in an enterprise environment? - yarn build , then build folder can be pushed to S3 or firebase hosting or Horoku - any static web hosting system
+3. How would you deploy the solution in an enterprise environment? - yarn build , 
+API gateway container like  IBM API Connect or Red Hat OpenShift on Amazon Web Services (AWS)
+FrontENd- then build folder can be pushed to S3 or firebase hosting or Horoku - any static web hosting system
